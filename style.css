@@ -1,0 +1,200 @@
+html, body {
+    margin: 0rem; }
+  
+  ul, li, a, p, h1, h2, h3, h4, h5, img, button, span, hr {
+    margin: 0; }
+
+#all-project {
+    padding: 0rem 5rem;
+}
+
+.project {
+    display: flex;
+    background: #111417;
+    border-radius: 2rem;
+}
+
+.cutaway {
+    width: 25%;
+    background: #DCDCDC;
+    border-right: 0.2rem solid #fdc501;
+    border-radius: 2rem;
+}
+
+.cutaway .indents .image-bloc {
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.cutaway .indents .image-bloc img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 3rem;
+    border: 0.2rem solid #fdc501;
+}
+
+.cutaway .indents .image-bloc h1 {
+    color: #2c3033;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+.cutaway .indents .image-bloc span {
+    font-weight: bold;
+    color: #1e2020;
+}
+
+.cutaway .indents .image-bloc p {
+    padding: 0.5rem;
+    background: #fdc501;
+    border-radius: 2rem;
+    border: 0.2rem solid #111417;
+}
+
+.cutaway .indents .icon ul {
+    text-align: center;
+    padding: 0rem;
+    padding-top: 2rem; 
+}
+
+.cutaway .indents .icon ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0rem 1rem; 
+}
+
+.cutaway .indents .icon ul li a {
+    font-size: 2.2rem;
+    color: #323638;
+    transition: all 0.4s linear; 
+}
+
+.cutaway .indents .icon ul li a:hover {
+    color: white; 
+}
+
+.cutaway .indents .list-bloc {
+    padding-top: 2rem;
+}
+
+.cutaway .indents .list-bloc ul {
+    padding: 0rem;
+}
+
+.cutaway .indents .list-bloc ul li {
+    list-style-type: none;
+    padding: 0.2rem;
+}
+
+.cutaway .indents .btn-bloc {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.cutaway .indents .btn-bloc button {
+    padding: 0.8rem 3rem;
+    background: #111417;
+    color: #fdc501;
+    border: 0.2rem solid #fdc501;
+    border-radius: 2rem;
+    transition: all linear 0.4s;
+}
+
+.cutaway .indents .btn-bloc button:hover {
+    background: #fdc501;
+    color: #111417;
+    border: 0.2rem solid #111417;
+}
+
+.portfolio {
+    width: 75%;
+}
+
+.indents {
+    padding: 0rem 3rem;
+}
+
+.portfolio .navigation-bar {
+    padding-bottom: 4rem;
+}
+
+.portfolio .navigation-bar ul {
+    display: flex;
+    padding-left: 12rem;
+}
+
+.portfolio .navigation-bar ul li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.portfolio .navigation-bar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fdc501;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all linear 0.4s;
+}
+
+.portfolio .navigation-bar ul li a:hover{
+    color: #000;
+    background: #fdc501;
+}
+
+.portfolio .section-text:hover hr {
+    width: 8rem;
+    background: #fdc501; }
+
+.portfolio .section-text,.section-table h1 {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.12rem; }
+
+.portfolio .section-text h1 hr {
+    width: 6rem;
+    height: 0.2rem;
+    background: #283436;
+    border: none;
+    margin: 2rem 0;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear; }
+
+.portfolio .section-text p {
+    font-size: 1.3rem;
+    color: #575859; }
+
+.portfolio .section-table {
+    padding-top: 2rem;
+}
+
+.portfolio .conteiners-all {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.portfolio .conteiners {
+    display: flex;
+}
+
+.portfolio .conteiners .shell {
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.portfolio .conteiners .section {
+    text-align: center;
+    border: 0.2rem solid #fdc501;
+    border-radius: 1.5rem;
+}
+
+.portfolio .conteiners .section h2 {
+    color: #575859;
+}
+
+.portfolio .conteiners .section p {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #575859;
+}
